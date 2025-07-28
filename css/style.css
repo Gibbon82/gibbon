@@ -41,7 +41,7 @@ p.cap{
 
 header{
     text-align: center;
-    background-color: rgb(138, 84, 14);
+    background-color: rgb(31, 30, 29);
     padding: 20px;
 }
 
@@ -85,4 +85,24 @@ main{
 
 main img{
     max-width: 100%;
+}
+
+footer{
+    background-color: rgb(31, 30, 29);
+    padding: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+footer .content{
+    width: 800px;
+    margin: 0 auto;    
+}
+
+footer a{
+    color: white;   
+}
+
+footer a:hover{
+    color: rgb(226, 127, 14);   
 }
