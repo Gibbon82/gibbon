@@ -47,8 +47,8 @@ header{
 
 header .pfp{
 
-    width:300px;
-    height:300px;
+    width:220px;
+    height:220px;
     border: 10px solid rgb(226, 127, 14);
     border-radius: 50%;
     background-image: url('./../img/Gibbon-Golden.jpg');
@@ -78,15 +78,25 @@ h2{
     color: rgb(0, 0, 0);     
 }
 
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 40px;
+    }   
+}
+
 main{
-    width: 800px;
+    max-width: 800px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 main img{
     max-width: 100%;
 }
-
+/*footer*/
 footer{
     background-color: rgb(31, 30, 29);
     padding: 30px;
@@ -95,8 +105,8 @@ footer{
     margin-top: 60px;
 }
 footer .content{
-    width: 800px;
-    margin: 0 auto;    
+    max-width: 800px;
+    margin: 0 auto;     
 }
 
 footer a{
@@ -105,4 +115,9 @@ footer a{
 
 footer a:hover{
     color: rgb(226, 127, 14);   
+}
+@media (max-width: 600px) {
+    footer p{
+        font-size: 16px;
+    }
 }
