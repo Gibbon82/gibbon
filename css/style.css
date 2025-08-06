@@ -58,6 +58,13 @@ header .pfp{
     margin: 0 auto;
 }
 
+header .pfp.proboscis{
+    border: 10px solid rgb(14, 141, 226);
+    background-image: url('./../img/proboscis-main.PNG');
+    background-position: center center;
+    background-size: cover;
+}
+
 h1{
     font-family: "Archivo", sans-serif;
     font-optical-sizing: auto;
